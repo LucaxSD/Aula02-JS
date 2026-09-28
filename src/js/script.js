@@ -55,9 +55,21 @@ console.log( b < a && a > b)
 //OPERADOR OR || UMA DAS OPERAÇÔES TEM QUE SER VERDADEIRAS
 console.log( a>20 || b >= a)
 
-let temIdade =18
-let habilitação=true
+let temIdade =18;
+let habilitacao=true;
 
-let dirigir = (temIdade >= 18) || habilitacao;
+let dirigir = (temIdade >= 18) && habilitacao;
 console.log("O Usuário pode Dirigir ?", dirigir);
 
+// Estrutura Condicional
+if(false){
+    console.log("É VERDADEIRO")
+}
+
+//if/else
+
+if(false){
+    console.log("Verdadeiro")
+}else{
+    console.log("Falso")
+}
